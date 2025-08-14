@@ -24,7 +24,7 @@ jobs:
 
       with:
 
-      app-name: CMST385-UMGC-nalvarez17
+      app-name: CMST385-UMGC-nalvarez17 - Web Deploy
 
       slot-name: production
         
