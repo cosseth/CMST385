@@ -1,0 +1,28 @@
+on:
+
+  push:
+
+    branches:
+
+      - main
+
+jobs:
+
+  build-and-deploy:
+
+    runs-on: windows-latest
+
+     steps:
+
+    - uses: actions/checkout@main
+
+    - name: Deploy to Azure Web App - CMST385
+
+      uses: azure/webapps-deploy@v1
+
+      with:
+      app-name: 'CMST385-UMGC-nalvarez17'
+
+        slot-name: 'production'
+        
+        publish-profile: ${{ secrets.APPSERVICECMST385 }}
