@@ -20,12 +20,12 @@ jobs:
 
     - name: Deploy to Azure Web App - CMST385
 
-      uses: azure/webapps-deploy@v1
-
+      uses: 'azure/webapps-deploy@v1'
+      
       with:
 
-      app-name: CMST385-UMGC-nalvarez17 - Web Deploy
+        app-name: 'CMST385-UMGC-nalvarez17 - Web Deploy'
 
-      slot-name: production
+        slot-name: 'production'
         
-      publish-profile: ${{ secrets.APPSERVICECMST385 }}
+        publish-profile: ${{ secrets.APPSERVICECMST385 }}
