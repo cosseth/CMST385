@@ -1,0 +1,217 @@
+.germania-one-regular {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Verdana', 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #333;
+}
+
+
+header {
+    font-family: 'Germania One', serif;
+    background-color: #000;
+    color: #ff9f1c;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #212529;
+}
+header h2 {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.cover-banner {
+    width: 100%;
+    max-height: 800px;
+    height: auto; 
+    object-fit: cover; 
+    display: block;    
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table; 
+    clear: both; 
+}
+.album h2 {
+    color: black;
+    font-family: 'Germania One';
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+figure {
+  display: flex;         
+  flex-direction: column; 
+  align-items: center;    
+  margin: 20px auto;
+}
+figcaption.albumcover {
+  font-size: 0.9rem;     
+  text-align: center;
+  color: #7f7f7f; 
+  margin-top: 4px;  
+  line-height: 1.2;     
+  font-style: italic; 
+}
+#musictitle {
+    font-family: 'Germania One', serif;
+    background-color: #ff9f1c;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+.caption-home {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    white-space: normal;  
+    line-height: 1.4;     }
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+h2.story {
+    color: #432818;
+}
+button {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #ff9f1c;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #F7BD6C;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #ff9f1c;
+    margin: 0;
+}
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.album {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+.album img {
+    width: 100%;
+    border-radius: 5px;
+}
+.album h3 {
+    margin: 10px 0 5px;
+}
+.album p {
+    margin: 5px 0;
+    color: #555;
+}
+.songs {
+    list-style: none;
+    padding-left: 15px;
+}
+.songs li {
+    margin-bottom: 4px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    display: flex;
+    align-items: center;      /* Vertically center items */
+    justify-content: center;  /* Center the text horizontally */
+    padding: 10px 20px;
+    background-color: #212529;
+    color: white;
+    position: relative;
+    width: 100%;
+    font-size: 0.8em;
+    gap: 20px;                /* Space between text and icons */
+}
+
+.footer-text {
+    flex: 1;
+    text-align: center;       /* Keep text in the middle */
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 10px;                /* Space between icons */
+    justify-content: flex-end; /* Push icons to the right */
+    flex-shrink: 0;
+}
+
+footer .social-icons img {
+    width: 32px; 
+    height: 32px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.news-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
