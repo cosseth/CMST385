@@ -176,26 +176,26 @@ section {
 
 footer {
     display: flex;
-    align-items: center;      /* Vertically center items */
-    justify-content: center;  /* Center the text horizontally */
+    align-items: center;      
+    justify-content: center; 
     padding: 10px 20px;
     background-color: #212529;
     color: white;
     position: relative;
     width: 100%;
     font-size: 0.8em;
-    gap: 20px;                /* Space between text and icons */
+    gap: 20px; 
 }
 
 .footer-text {
     flex: 1;
-    text-align: center;       /* Keep text in the middle */
+    text-align: center; 
 }
 
 footer .social-icons {
     display: flex;
-    gap: 10px;                /* Space between icons */
-    justify-content: flex-end; /* Push icons to the right */
+    gap: 10px;    
+    justify-content: flex-end; 
     flex-shrink: 0;
 }
 
